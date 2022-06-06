@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="left_section">
+            <img class="photo" src="./imgs/pizza.png" alt="pizza">
+            <div class="logo_bar">
+            <p> T's Famous </p>
+            </div>
+        </div>
+
+
+        <div class="right_section">
+
+            <div class="header">
+
+            </div>
+
+            <div class="top">
+                <div class="disclaimer"> 
+                    T's Famous has been proudly serving pizzers in 
+                    The Bronx and Westchester since 2020. Send her an email, maybe she'll
+                    make you one!
+                </div>
+
+            </div>
+
+            <div class="center">
+                <div class="title"> <h3><em>Request-er-Pizzer</em></h3> </div>
+                <form action="#" id="request-form">
+
+                    <div class="requestor_info">
+                        <h4> Contact Info </h4>
+                            <div class="contact_info">
+                                <div>
+                                    <label for="name"> Name: </label>
+                                    <input type="text" id="name" name="name">
+                                </div>
+                                <div>
+                                    <label for="email"> Email: </label>
+                                    <input type="email" id="email" name="email">
+                                </div>
+                                <div>
+                                    <label for="phone_number"> Phone: </label>
+                                    <input type="text" id="phone_number" name="phone_number" minlength="10" maxlength="11">
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="date_selection">
+                        <h4> Date of Slowdown </h4>
+                        <label for="date"></label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
+                    <div class="dough_selection">
+                        <h4> Dough Selection </h4>
+                        <div class="selections">
+                            <div>
+                                <input type="radio" id="ancient_grain" name="dough" value="ancient_grain">
+                                <label for="ancient_grain">Ancient Grain</label>
+                            </div>                            <div>
+                                <input type="radio" id="rosemary" name="dough" value="rosemary">
+                                <label for="rosemary">Rosemary</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="plain" name="dough" value="plain">
+                                <label for="plain">Plain</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="toppings">
+                        <h4> Toppings </h4>
+                        <ul class="checkbox-grid">
+
+                            <li>
+                                <input type="checkbox" id="buratta" name="topping" value="buratta">
+                                <label for="buratta">Buratta</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="onion" name="topping" value="onion">
+                                <label for="onion">Onions</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="garlic" name="topping" value="garlic">
+                                <label for="garlic">Garlic</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="pine_nuts" name="topping" value="pine_nuts">
+                                <label for="pine_nuts">Pine Nuts</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+                                <label for="mushrooms">Mushrooms</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="peppers" name="topping" value="peppers">
+                                <label for="peppers">Peppers</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="spinach" name="topping" value="spinach">
+                                <label for="spinach">Spinach</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="pesto" name="topping" value="pesto">
+                                <label for="pesto">Pesto</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="tomato" name="topping" value="tomato">
+                                <label for="tomato">Tomato</label>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+
+            <div class="bottom">
+                <button type="submit" form="request-form"> Submit </button>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>

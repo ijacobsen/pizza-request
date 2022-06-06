@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: logo_font;
+    src: url("./fonts/DkSoerabajaRegular-zoda.otf");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    height: 100%;
+}
+
+.photo {
+    height: 100%;
+    width: 35vw;
+}
+
+.logo_bar {
+    font-family: logo_font;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    padding:10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_section{
+    display: flex;
+    justify-content: center;
+    justify-content: stretch;
+
+}
+/*
+.logo_bar p {
+    font-family: logo_font;
+    margin-top: 150px;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 10px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+*/
+
+.right_section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    min-width: 600px;
+    background-color: gainsboro;
+}
+
+.right_section .top, .right_section .bottom {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.right_section .title {
+    display: flex;
+    justify-content: center;
+}
+
+.right_section .center {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: stretch;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#request-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#request-form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#request-form > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 40vw;
+}
+
+button {
+    border-radius: 12px;
+    padding: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.checkbox-grid li{
+    display: block;
+    float: left;
+    width: 30%;
+}
